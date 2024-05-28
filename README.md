@@ -2,14 +2,12 @@
 
 #               Documentación del Proyecto 
 # RED DE BIBLIOTECAS: UNA APUESTA A LA CONEXIÓN 
+
 Gutiérrez Verano Katherin Alexandra, Castillo López Gonzalo,  
 
 Poveda Girata Hugo Steven, Silva Piracoca Edwin Leonardo 
-
 {kagutierrez, g.castillol, H.Poveda, e.silva} }@javeriana.edu.co 
-
 Pontificia Universidad Javeriana 
-
 Bogotá D.C. 
 ---
 
