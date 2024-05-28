@@ -1,6 +1,7 @@
 # proyecto_biblo
 
-# Documentación del Proyecto "RED DE BIBLIOTECAS: UNA APUESTA A LA CONEXIÓN "
+# Documentación del Proyecto 
+# RED DE BIBLIOTECAS: UNA APUESTA A LA CONEXIÓN 
 
 ---
 
