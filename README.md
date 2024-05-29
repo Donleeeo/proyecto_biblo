@@ -118,7 +118,7 @@ El diagrama de arquitectura muestra la estructura del ecosistema, destacando los
 #### Presentación
 - **FastAPI**: Utilizado para desarrollar APIs que exponen los datos de manera eficiente y segura, facilitando la interacción con los datos almacenados y proporcionando un acceso rápido y estructurado a la información.
 - **Streamlit**: Plataforma utilizada para desarrollar la interfaz de usuario, permitiendo la visualización intuitiva de la información geoespacial y mejorando la experiencia del usuario.
-- **Redis**: Implementado como una base de datos en memoria para el almacenamiento en caché, mejorando el rendimiento y la velocidad de acceso a la información mediante el almacenamiento de datos temporales y frecuentemente consultados.
+
 
 ### Flujo de Datos
 
