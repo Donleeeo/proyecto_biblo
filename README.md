@@ -465,9 +465,34 @@ proyecto_biblo/
 ├── docker-compose.yml
 └── local.env
 
-css
 
 ```
+
+
+## Descripción de cada archivo y directorio
+
+- **imagenes/**: Directorio que contiene imágenes utilizadas en el proyecto.
+  - **Arquitectura.png**: Imagen del diagrama de arquitectura del sistema.
+  - **Flujo.jpg**: Imagen del diagrama de flujo de datos.
+
+- **minio_data/**: Directorio que contiene los datos y configuraciones para MinIO.
+  - **.minio.sys/**: Directorio del sistema MinIO que incluye configuraciones y datos internos.
+    - **buckets/**: Directorio para los buckets de MinIO.
+    - **config/**: Directorio de configuración del sistema MinIO.
+    - **pool.bin**: Archivo binario de MinIO.
+    - **tmp/**: Directorio temporal del sistema MinIO.
+      - **format.json**: Archivo de formato JSON utilizado por MinIO.
+
+  - **bucketbiblos/**: Directorio que representa un bucket en MinIO para almacenar datos relacionados con bibliotecas.
+  - **bucketlibros/**: Directorio que representa un bucket en MinIO para almacenar datos relacionados con libros.
+
+- **README.md**: Archivo de documentación que describe el propósito del proyecto, cómo configurarlo y cómo usarlo.
+
+- **data.sql**: Archivo SQL que contiene datos iniciales para la base de datos.
+
+- **docker-compose.yml**: Archivo de configuración para Docker Compose, que define los servicios, redes y volúmenes necesarios para levantar el entorno de desarrollo.
+
+- **local.env**: Archivo que contiene variables de entorno necesarias para la configuración del proyecto.
 
 
 
