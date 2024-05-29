@@ -25,6 +25,6 @@ Las bibliotecas tienen servicios de búsqueda de libros digitales y físicos, co
 En el presente proyecto se busca conectar las bibliotecas en una aplicación tecnológica a través de los datos públicos ofrecidos por la página de Datos Abiertos de Bogotá, con las herramientas de bases de datos relacionales como PostgreSQL, bases de datos geoespaciales como PostGIS. Buscando analizar la relación entre los datos de las diferentes bibliotecas, la accesibilidad geográfica, la cobertura de libros manejados, y la información de contacto que brindan por medio de Docker Compose.
 
 ## Objetivos
-- **Objetivos Generales:** Metas amplias que el proyecto pretende alcanzar.
+- **Objetivos Generales:** Desarrollar una solución tecnológica integral que permita a los usuarios localizar geo-espacialmente las bibliotecas más cercanas en la ciudad de Bogotá, mejorando el acceso a la información bibliográfica y geoespacial mediante el uso de datos abiertos y diversas herramientas tecnológicas.  
 - **Objetivos Específicos:** Metas más detalladas y específicas que se deben cumplir para alcanzar los objetivos generales.
 
