@@ -24,4 +24,7 @@ El acceso a las bibliotecas es fundamental para el uso cotidiano y su utilizaci�
 Las bibliotecas tienen servicios de búsqueda de libros digitales y físicos, consulta de tesis y proyectos de investigación, ofrecen servicios de educación continua que involucran a estudiantes y a la comunidad, por ello son centros de oportunidad para el aprendizaje y de avance para personas interesadas en lectura e investigación que no pueden comprar todas las publicaciones buscadas.
 En el presente proyecto se busca conectar las bibliotecas en una aplicación tecnológica a través de los datos públicos ofrecidos por la página de Datos Abiertos de Bogotá, con las herramientas de bases de datos relacionales como PostgreSQL, bases de datos geoespaciales como PostGIS. Buscando analizar la relación entre los datos de las diferentes bibliotecas, la accesibilidad geográfica, la cobertura de libros manejados, y la información de contacto que brindan por medio de Docker Compose.
 
+## Objetivos
+- **Objetivos Generales:** Metas amplias que el proyecto pretende alcanzar.
+- **Objetivos Específicos:** Metas más detalladas y específicas que se deben cumplir para alcanzar los objetivos generales.
 
