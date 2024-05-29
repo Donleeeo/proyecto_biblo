@@ -32,18 +32,13 @@ En el presente proyecto se busca conectar las bibliotecas en una aplicación tec
 ### Objetivos Específicos
 
 1. **Recopilación y Almacenaje de Datos**
-   - Recopilar y procesar datos de diversas fuentes públicas.
-   - Gestionar y almacenar estos datos utilizando MinIO.
-   - Configurar bases de datos relacionales, geoespaciales y vectoriales, ejecutadas y orquestadas dentro de Docker Compose para asegurar una ejecución coordinada y eficiente de los componentes del sistema.
+   - Recopilar y procesar datos de diversas fuentes públicas. Estos datos serán gestionados y almacenados utilizando MinIO. Adicionalmente, se configurarán bases de datos relacionales, geoespaciales y vectoriales, ejecutadas y orquestadas dentro de Docker Compose para asegurar una ejecución coordinada y eficiente de los componentes del sistema.
 
 2. **Desarrollo e Implementación Tecnológica**
-   - Desarrollar e implementar la tecnología necesaria para la explotación de los datos.
-   - Crear APIs utilizando FastAPI para exponer los datos de manera eficiente y segura.
-   - Implementar una interfaz de usuario con Streamlit que permita la visualización intuitiva de la información geoespacial.
-   - Realizar pruebas de integración y funcionamiento para asegurar la eficiencia y efectividad del sistema.
+   - Desarrollar e implementar la tecnología necesaria para la explotación de los datos. Se crearán APIs utilizando FastAPI para exponer los datos de manera eficiente y segura, y se implementará una interfaz de usuario con Streamlit que permitirá la visualización intuitiva de la información geoespacial. Se llevarán a cabo pruebas de integración y funcionamiento para asegurar la eficiencia y efectividad del sistema.
 
 3. **Facilitación del Acceso a Información Bibliotecaria**
-   - Facilitar el acceso a la información bibliotecaria, permitiendo a los usuarios consultar la ubicación de las bibliotecas más cercanas, incluyendo bibliotecas públicas, comunitarias, Biblored y Manzanas del Cuidado.
-   - Proveer una herramienta que facilite el acceso y el conocimiento público sobre los servicios bibliotecarios disponibles en Bogotá, mejorando así la accesibilidad y promoviendo la utilización de estos recursos valiosos para la comunidad.
+   - Facilitar el acceso a la información bibliotecaria, permitiendo a los usuarios consultar la ubicación de las bibliotecas más cercanas, incluyendo bibliotecas públicas, comunitarias, Biblored y Manzanas del Cuidado. Se proveerá una herramienta que facilite el acceso y el conocimiento público sobre los servicios bibliotecarios disponibles en Bogotá, mejorando así la accesibilidad y promoviendo la utilización de estos recursos valiosos para la comunidad.
+
 
 
