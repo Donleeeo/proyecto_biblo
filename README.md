@@ -100,7 +100,7 @@ La arquitectura del sistema está diseñada para permitir a los usuarios localiz
 
 El diagrama de arquitectura muestra la estructura del ecosistema, destacando los componentes principales y su interconexión.
 
-![Diagrama de Arquitectura](path_to_architecture_diagram.png)
+![Arquitectura.png](imagenes/Arquitectura.png)
 *Figura 1. Diagrama de arquitectura.*
 
 ### Componentes
