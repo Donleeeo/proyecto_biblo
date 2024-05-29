@@ -25,6 +25,25 @@ Las bibliotecas tienen servicios de búsqueda de libros digitales y físicos, co
 En el presente proyecto se busca conectar las bibliotecas en una aplicación tecnológica a través de los datos públicos ofrecidos por la página de Datos Abiertos de Bogotá, con las herramientas de bases de datos relacionales como PostgreSQL, bases de datos geoespaciales como PostGIS. Buscando analizar la relación entre los datos de las diferentes bibliotecas, la accesibilidad geográfica, la cobertura de libros manejados, y la información de contacto que brindan por medio de Docker Compose.
 
 ## Objetivos
-- **Objetivos Generales:** Desarrollar una solución tecnológica integral que permita a los usuarios localizar geo-espacialmente las bibliotecas más cercanas en la ciudad de Bogotá, mejorando el acceso a la información bibliográfica y geoespacial mediante el uso de datos abiertos y diversas herramientas tecnológicas.  
-- **Objetivos Específicos:** Metas más detalladas y específicas que se deben cumplir para alcanzar los objetivos generales.
+
+### Objetivos Generales
+- **Desarrollar una solución tecnológica integral** que permita a los usuarios localizar geo-espacialmente las bibliotecas más cercanas en la ciudad de Bogotá, mejorando el acceso a la información bibliográfica y geoespacial mediante el uso de datos abiertos y diversas herramientas tecnológicas.
+
+### Objetivos Específicos
+
+1. **Recopilación y Almacenaje de Datos**
+   - Recopilar y procesar datos de diversas fuentes públicas.
+   - Gestionar y almacenar estos datos utilizando MinIO.
+   - Configurar bases de datos relacionales, geoespaciales y vectoriales, ejecutadas y orquestadas dentro de Docker Compose para asegurar una ejecución coordinada y eficiente de los componentes del sistema.
+
+2. **Desarrollo e Implementación Tecnológica**
+   - Desarrollar e implementar la tecnología necesaria para la explotación de los datos.
+   - Crear APIs utilizando FastAPI para exponer los datos de manera eficiente y segura.
+   - Implementar una interfaz de usuario con Streamlit que permita la visualización intuitiva de la información geoespacial.
+   - Realizar pruebas de integración y funcionamiento para asegurar la eficiencia y efectividad del sistema.
+
+3. **Facilitación del Acceso a Información Bibliotecaria**
+   - Facilitar el acceso a la información bibliotecaria, permitiendo a los usuarios consultar la ubicación de las bibliotecas más cercanas, incluyendo bibliotecas públicas, comunitarias, Biblored y Manzanas del Cuidado.
+   - Proveer una herramienta que facilite el acceso y el conocimiento público sobre los servicios bibliotecarios disponibles en Bogotá, mejorando así la accesibilidad y promoviendo la utilización de estos recursos valiosos para la comunidad.
+
 
