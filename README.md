@@ -124,7 +124,7 @@ El diagrama de arquitectura muestra la estructura del ecosistema, destacando los
 
 El diagrama de flujo muestra el movimiento de datos desde las fuentes hasta la presentación final al usuario.
 
-![Diagrama de Flujo](path_to_data_flow_diagram.png)
+![Flujo.jpg](imagenes/Flujo.jpg)
 *Figura 2. Diagrama de flujo.*
 
 
