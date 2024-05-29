@@ -437,7 +437,7 @@ Construcción de guía pública para consulta, en la cual se incluye:
 Incluir el archivo de licencia: Crea un archivo llamado LICENSE en el directorio raíz de tu proyecto e incluye el texto de la licencia.
 
 ## Agradecimientos
-- **Reconocimientos:**
+**Reconocimientos:**
 - Gutiérrez Verano Katherin Alexandra,
 - Castillo López Gonzalo,
 - Poveda Girata Hugo Steven,
