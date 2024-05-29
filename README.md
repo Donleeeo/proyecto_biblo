@@ -505,7 +505,7 @@ Construye y levanta los servicios con Docker Compose:
 docker-compose up --build
 ```
 ### **Segundo Paso:**
-Antes de ejecutar la imagen generada con Docker del aplicativo es primordial esperar a que se carguen todos los archivos en las bases de datos.
+Antes de ejecutar la imagen generada con Docker del aplicativo es primordial esperar a que se carguen todos los archivos en las bases de datos, este proceso puede tardar al rededor de 10 minutos.
 
 ### **Tercer Paso:**
 Posterior a que se carguen todas las archivos en las bases de datos aca click en el siguiente link:
