@@ -512,7 +512,7 @@ Posterior a que se carguen todas las archivos en las bases de datos aca click en
 
 http://localhost:3000
 
-Nota:Como estamos trabajando con geolocalización, tiene que dar persimos a su navegador de su ubicación. 
+**Nota:** Como estamos trabajando con geolocalización, tiene que dar persimos a su navegador de su ubicación. 
 
 ### **Cuarto Paso:**
 
