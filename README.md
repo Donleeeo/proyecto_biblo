@@ -494,7 +494,7 @@ proyecto_biblo/
 
 - **local.env**: Archivo que contiene variables de entorno necesarias para la configuración del proyecto.
 
-## Instrucciones Básicas
+## Instrucciones Básicas y de Ejecución
 
 ### **Primer Paso:**
 Clona el repositorio con el comando a continuación para crear el archivo `.env` con las variables de entorno necesarias.
