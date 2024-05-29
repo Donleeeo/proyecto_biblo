@@ -271,5 +271,31 @@ El diagrama de flujo muestra el movimiento de datos desde las fuentes hasta la p
      ```
 Siguiendo estos pasos, habrás configurado y ejecutado los componentes principales de tu aplicación, incluyendo MinIO, PostgreSQL con PostGIS, Docker Compose, FastAPI y React. Asegúrate de personalizar las credenciales y configuraciones según tus necesidades específicas.
 
+## Uso del Proyecto
+
+Las bibliotecas desempeñan un papel fundamental en la búsqueda y divulgación del conocimiento, ya que los servicios ofrecidos permiten aprender, apoyar la alfabetización y educación en la sociedad. Sin embargo, muy pocas personas hacen uso de estos espacios debido al avance en la accesibilidad en formato digital de la información, o por falta de conocimiento de los servicios disponibles en estos espacios.
+
+El acceso al conocimiento es esencial para el desarrollo personal y profesional de estudiantes y de toda la comunidad. A veces, encontrar una biblioteca cercana que brinde los recursos necesarios es un desafío, no solo por la distancia sino también por la falta de claridad sobre los servicios que ofrece.
+
+La aplicación tecnológica descrita en este proyecto permite ubicar la biblioteca más cercana a la ubicación del usuario de manera rápida y sencilla, facilitando el acceso a esas fuentes de información disponibles en las bibliotecas seleccionadas. Esto se logra mediante el uso de tres bases de datos, una aplicación cliente y, si se desea, una capa de API Rest para ser consumida. La implementación se desarrolla utilizando Docker Compose.
+
+### Justificación de la Tecnología Utilizada
+
+El proyecto utiliza una combinación de tecnologías avanzadas para proporcionar una solución robusta y eficiente que facilita el acceso a la información bibliográfica y geoespacial. Mediante el uso de MinIO, PostgreSQL con PostGIS, Mongo y Docker Compose, se asegura que los datos sean gestionados de manera eficiente y accesible, mientras que el uso de tecnologías de código abierto garantiza la seguridad y la colaboración en el desarrollo del sistema.
+
+#### MinIO
+Para el almacenamiento de los datos se utiliza MinIO porque es ideal para grandes cantidades de datos no estructurados, como archivos multimedia, copias de seguridad, archivos de log y otros tipos de datos binarios. MinIO proporciona una API compatible con S3, lo que facilita la integración con otras herramientas y servicios que ya utilizan este estándar. Además, se elige MinIO en vez de MongoDB porque su gestión no requiere la creación y mantenimiento de índices complejos, ya que se enfoca en el almacenamiento de objetos.
+
+#### PostgreSQL con PostGIS
+Para las bases de datos geoespaciales se utiliza PostgreSQL debido a su capacidad de manejar grandes volúmenes de datos y su optimización de consultas. PostGIS, como extensión de PostgreSQL, permite almacenar y consultar datos espaciales de manera eficiente e incluye tipos de datos geométricos para que el cliente pueda tener un polígono de las bibliotecas más cercanas a su localización. El uso de PostgreSQL con PostGIS proporciona una solución robusta, eficiente y flexible para el proyecto.
+
+#### Docker Compose
+Para la gestión de los entornos de las bases de datos se utiliza Docker Compose, que permite orquestar varios contenedores de manera independiente, sin generar conflictos entre ellos. Esto permite que el archivo se pueda ejecutar por parte del desarrollador en cualquier máquina que tenga Docker instalado, facilitando la colaboración y el despliegue.
+
+#### Tecnologías de Código Abierto
+El uso de tecnologías de código abierto y gratuitas reduce costos de licenciamiento y permite auditar el código y contribuir a su desarrollo, mejorando la seguridad y la confiabilidad del sistema.
+
+
+
 
 
