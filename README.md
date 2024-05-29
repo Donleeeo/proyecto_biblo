@@ -137,9 +137,18 @@ El diagrama de flujo muestra el movimiento de datos desde las fuentes hasta la p
 
 - **FastAPI**: Framework para el desarrollo de APIs eficientes y seguras.
 
-- **Streamlit**: Plataforma para desarrollar interfaces de usuario intuitivas y visualización de datos.
+- **React**: Biblioteca de JavaScript para desarrollar interfaces de usuario intuitivas y dinámicas.
 
 - **MongoDB**: Base de datos documental de fácil y rápida indexación, muy eficiente en procesos de búsquedas semánticas. Como valor agregado al proyecto, se realiza a través del front una búsqueda de palabras existentes en la base de datos de MongoDB.
+
+- **Python**: Lenguaje de programación utilizado para el desarrollo del backend y procesamiento de datos.
+
+- **Java**: Lenguaje de programación utilizado para la implementación de algunos servicios backend.
+
+- **SQL**: Lenguaje de consulta utilizado para interactuar con bases de datos relacionales.
+
+- **NoSQL**: Modelo de base de datos utilizado para almacenar datos no estructurados y de fácil escalabilidad.
+
 
 
 
