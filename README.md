@@ -116,7 +116,7 @@ El diagrama de arquitectura muestra la estructura del ecosistema, destacando los
 
 #### Presentación
 - **FastAPI**: Utilizado para desarrollar APIs que exponen los datos de manera eficiente y segura, facilitando la interacción con los datos almacenados y proporcionando un acceso rápido y estructurado a la información.
-- **Streamlit**: Plataforma utilizada para desarrollar la interfaz de usuario, permitiendo la visualización intuitiva de la información geoespacial y mejorando la experiencia del usuario.
+- **React**: Librerías de JavaScript utilizada en el desarrollo de la aplicación. 
 
 
 ### Flujo de Datos
@@ -124,5 +124,22 @@ El diagrama de arquitectura muestra la estructura del ecosistema, destacando los
 El diagrama de flujo muestra el movimiento de datos desde las fuentes hasta la presentación final al usuario.
 
 ![Flujo.jpg](imagenes/Flujo.jpg)
+
+## Tecnologías Utilizadas
+
+- **MinIO**: Utilizado para gestionar y almacenar grandes volúmenes de datos en diversos formatos.
+
+- **PostgreSQL**: Base de datos relacional utilizada para almacenar datos estructurados.
+
+- **PostGIS**: Extensión de PostgreSQL para manejar datos geoespaciales.
+
+- **Docker Compose**: Orquestador de contenedores utilizado para la implementación y gestión coordinada de los componentes.
+
+- **FastAPI**: Framework para el desarrollo de APIs eficientes y seguras.
+
+- **Streamlit**: Plataforma para desarrollar interfaces de usuario intuitivas y visualización de datos.
+
+- **MongoDB**: Base de datos documental de fácil y rápida indexación, muy eficiente en procesos de búsquedas semánticas. Como valor agregado al proyecto, se realiza a través del front una búsqueda de palabras existentes en la base de datos de MongoDB.
+
 
 
