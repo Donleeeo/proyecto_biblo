@@ -48,5 +48,49 @@ En el presente proyecto se busca conectar las bibliotecas en una aplicación tec
 3. **Facilitación del Acceso a Información Bibliotecaria**
    - Facilitar el acceso a la información bibliotecaria, permitiendo a los usuarios consultar la ubicación de las bibliotecas más cercanas, incluyendo bibliotecas públicas, comunitarias, Biblored y Manzanas del Cuidado. Se proveerá una herramienta que facilite el acceso y el conocimiento público sobre los servicios bibliotecarios disponibles en Bogotá, mejorando así la accesibilidad y promoviendo la utilización de estos recursos valiosos para la comunidad.
 
+## Atributos de Calidad
+
+La calidad es fundamental en el desarrollo exitoso del aplicativo, garantizando una experiencia de usuario óptima, segura y confiable.
+
+### Escalabilidad
+
+- **Escalabilidad Horizontal**: La aplicación está diseñada para manejar un incremento en la cantidad de usuarios y datos distribuyendo la carga en múltiples servidores. Para manejar un aumento en la carga de trabajo, se utilizarán servicios en la nube para almacenar y procesar datos, permitiendo escalar horizontalmente agregando más instancias de servidores según sea necesario.
+
+### Rendimiento
+
+El tiempo de respuesta de la aplicación es crucial para proporcionar una experiencia fluida y eficiente al localizar las bibliotecas cercanas rápidamente. Como estrategias, se plantea:
+
+- Utilización de técnicas de cacheo para almacenar temporalmente datos frecuentemente accedidos, reduciendo el tiempo de acceso.
+- Optimización de consultas a la base de datos relacional para mejorar la rapidez en la recuperación de información.
+
+### Disponibilidad
+
+La aplicación estará disponible y operativa la mayor parte del tiempo, con mínimos tiempos de inactividad. Se implementará:
+
+- Monitoreo continuo y alertas para detectar y resolver problemas rápidamente.
+
+### Seguridad
+
+Para garantizar la seguridad de los datos y la aplicación:
+
+- No se almacenarán datos sensibles del usuario.
+- Se usarán protocolos que permitan la autenticación segura y protejan las API de acceso a datos.
+- Se implementará HTTPS para todas las comunicaciones entre el cliente y el servidor.
+
+### Mantenibilidad
+
+El código de la aplicación estará estructurado de manera que sea fácil de entender y modificar. Se incluirá:
+
+- Documentación clara y detallada para facilitar futuras modificaciones y actualizaciones.
+- La aplicación estará dividida en componentes pequeños y reutilizables, facilitando las actualizaciones y el mantenimiento.
+
+### Confiabilidad
+
+Se asegurará que los datos presentados sean correctos y coherentes, sin errores ni duplicados. Para ello:
+
+- Se realizarán pruebas unitarias y de integración para garantizar que nuevas actualizaciones no introduzcan errores.
+- Se mantendrán bases de datos replicadas y backups automáticos para prevenir pérdida de datos.
+
+
 
 
