@@ -502,7 +502,7 @@ Clona el repositorio con el comando a continuación para crear el archivo `.env`
 Construye y levanta los servicios con Docker Compose:
 
 ```sh
-docker-compose up --build
+docker-compose up 
 ```
 ### **Segundo Paso:**
 Antes de ejecutar la imagen generada con Docker del aplicativo es primordial esperar a que se carguen todos los archivos en las bases de datos, este proceso puede tardar al rededor de 10 minutos.
