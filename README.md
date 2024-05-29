@@ -295,6 +295,146 @@ Para la gestión de los entornos de las bases de datos se utiliza Docker Compose
 #### Tecnologías de Código Abierto
 El uso de tecnologías de código abierto y gratuitas reduce costos de licenciamiento y permite auditar el código y contribuir a su desarrollo, mejorando la seguridad y la confiabilidad del sistema.
 
+## Pruebas y Validación
+
+### Estrategia de Pruebas
+
+En el desarrollo del aplicativo, como estrategia de pruebas y validación, se realizarán las siguientes actividades:
+
+- **Pruebas Unitarias**: Verificar el correcto funcionamiento de componentes individuales de la aplicación.
+- **Pruebas Funcionales**: Validar que la aplicación cumple con los requisitos funcionales especificados.
+- **Pruebas de Rendimiento**: Evaluar la capacidad de la aplicación con la carga esperada y su rendimiento bajo diferentes condiciones.
+- **Pruebas de Usabilidad**: Garantizar una experiencia de usuario intuitiva y agradable.
+- **Pruebas de Compatibilidad**: Asegurar que la aplicación funciona correctamente en diferentes dispositivos y sistemas operativos.
+
+### Casos de Prueba
+
+#### Caso de Prueba 1: Búsqueda de bibliotecas cercanas al sitio de ubicación del usuario
+
+- **Descripción**: Verificar que la aplicación puede encontrar las bibliotecas cercanas a la ubicación actual del usuario.
+- **Pasos**:
+  1. Iniciar la aplicación.
+  2. Permitir acceso a la ubicación.
+  3. Realizar una búsqueda de bibliotecas.
+- **Datos de Prueba**: Ubicación actual del usuario (coordenadas GPS).
+- **Resultado Esperado**: Ubicación geoespacial de las bibliotecas cercanas presentadas en la pantalla en un mapa, permitiendo identificar nombre, dirección y distancia a la que se encuentra.
+
+#### Caso de Prueba 2: Registro de nueva red de bibliotecas
+
+- **Descripción**: Verificar que una nueva biblioteca puede ser registrada correctamente.
+- **Pasos**:
+  1. Iniciar sesión en la aplicación.
+  2. Navegar a la sección bibliotecas.
+  3. Validar ubicación de la nueva biblioteca.
+- **Datos de Prueba**: Red de bibliotecas, ubicación (coordenadas).
+- **Resultado Esperado**: La nueva biblioteca aparece en la lista y es accesible para búsquedas.
+
+#### Caso de Prueba 3: Rendimiento de Carga
+
+- **Descripción**: Evaluar el rendimiento de la aplicación al cargar una lista grande de bibliotecas.
+- **Pasos**:
+  1. Iniciar la aplicación.
+  2. Realizar una búsqueda que devuelva una lista de bibliotecas.
+- **Datos de Prueba**: Base de datos con miles de registros de bibliotecas.
+- **Resultado Esperado**: La lista de almacenes se carga en menos de 2 segundos.
+
+### Resultados Esperados
+
+Para cada caso de prueba, los resultados esperados deben cumplir con los siguientes criterios:
+
+- **Correctitud**: La aplicación debe funcionar según lo especificado.
+- **Consistencia**: Los resultados deben ser consistentes en diferentes pruebas y entornos.
+- **Rendimiento**: Los tiempos de respuesta deben estar dentro de los límites aceptables.
+- **Seguridad**: Los datos sensibles deben estar protegidos contra accesos no autorizados.
+- **Usabilidad**: La aplicación debe ser intuitiva y fácil de usar.
+
+## Mantenimiento y Soporte
+
+### Guía de Mantenimiento
+
+- **Implementación de Monitoreo**: Monitorear el rendimiento de la aplicación y los recursos de Docker. Configurar alertas para problemas críticos (alta latencia, caídas del servidor, errores de API).
+- **Registro de Eventos y Errores**: Construir logs que recolecten información del sistema, para posteriormente analizarlos. Establecer políticas de retención y rotación de logs.
+- **Actualizaciones de Software**: Programar actualizaciones periódicas de la aplicación y sus dependencias (librerías, frameworks, base de datos). Probar todas las actualizaciones antes de desplegarlas en producción.
+- **Parcheo de Seguridad**: Mantenerse actualizado de las vulnerabilidades conocidas y aplicar parches de seguridad.
+- **Respaldo y Recuperación de Datos**: Implementar un sistema de respaldo automático para las bases de datos relacionales y geoespaciales. Probar regularmente los procesos de recuperación de datos para asegurar que los respaldos son válidos.
+- **Optimización de Base de Datos**: Realizar mantenimientos periódicos de la base de datos (indexación, limpieza de datos obsoletos).
+- **Revisión de Código**: Implementar revisiones de código periódicas y análisis estático. Refactorizar el código para mejorar la mantenibilidad y el rendimiento.
+- **Pruebas Regulares**: Ejecutar pruebas automáticas regularmente (unitarias, de integración, funcionales). Realizar pruebas de estrés y carga periódicamente para asegurar que la aplicación puede manejar picos de uso.
+
+### Soporte
+
+#### Soporte Técnico
+
+- **Niveles de Soporte**:
+  - **Nivel 1**: Soporte básico para problemas comunes (guía de usuario).
+  - **Nivel 2**: Soporte avanzado para problemas técnicos y funcionales que requieren análisis detallado.
+
+- **Canales de Soporte**:
+  - **Email**: Proveer un correo electrónico de soporte técnico con tiempos de respuesta definidos.
+  - **Chat en Vivo**: Implementar un sistema de chat en vivo para soporte en tiempo real.
+
+#### Documentación Técnica
+
+- Mantener documentación actualizada sobre la arquitectura de la aplicación, APIs, y procedimientos de despliegue.
+- Proveer guías detalladas de instalación y configuración para entornos Docker.
+
+#### Plan de Respuesta a Incidencias
+
+- Definir un plan de respuesta a incidentes que incluya identificación, análisis, resolución y comunicación de incidentes.
+
+## Contribuciones
+
+### Guía de Contribución
+
+#### Introducción
+
+Construcción de guía pública para consulta, en la cual se incluye:
+
+- **Bienvenida**: Agradeciendo el interés en contribuir a nuestro proyecto.
+- **Repositorio**: Se proporciona el enlace al repositorio principal de la aplicación (GitHub).
+
+#### Requisitos Previos
+
+- **Conocimientos Técnicos**: Familiaridad con las tecnologías utilizadas (Docker, PostgreSQL, bases de datos relacionales y geoespaciales).
+- **Herramientas Necesarias**:
+  - Docker y Docker Compose para el entorno de desarrollo.
+
+#### Crear Issue
+
+- Si detectas un problema o tienes una mejora, crea un issue describiendo el problema o la mejora propuesta.
+
+#### Implementar Cambios
+
+- Realiza los cambios necesarios en el código.
+- Añade pruebas unitarias para los cambios realizados.
+
+### Políticas de Código
+
+#### Estilo de Código
+
+- **Consistencia**: Mantener un estilo de código consistente.
+- **Convenciones de Nombres**: Aplicado para definición de variables, funciones, clases y componentes.
+
+#### Documentación
+
+- **Comentarios**: Comentar el código donde sea necesario para explicar la lógica compleja.
+- **Documentación de Funciones**: Añadir documentación para todas las funciones públicas utilizando un formato estándar.
+
+#### Pruebas
+
+- **Pruebas Unitarias**: Escribir pruebas unitarias para nuevas funcionalidades y correcciones de errores.
+- **Cobertura de Pruebas**: Cada nueva función debe venir acompañada de sus pruebas correspondientes.
+
+#### Seguridad
+
+- **Datos Sensibles**: Nunca incluir información sensible (contraseñas, claves API) en el código fuente.
+- **Validación de Entradas**: Asegurar todas las entradas del usuario para prevenir vulnerabilidades como la inyección SQL.
+
+## Licencia
+
+### Licencia del Proyecto
+
+Incluir el archivo de licencia: Crea un archivo llamado LICENSE en el directorio raíz de tu proyecto e incluye el texto de la licencia.
 
 
 
