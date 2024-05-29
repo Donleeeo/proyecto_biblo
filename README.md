@@ -269,9 +269,6 @@ El diagrama de flujo muestra el movimiento de datos desde las fuentes hasta la p
      cd my-app
      npm start
      ```
-
-### Conclusión
-
 Siguiendo estos pasos, habrás configurado y ejecutado los componentes principales de tu aplicación, incluyendo MinIO, PostgreSQL con PostGIS, Docker Compose, FastAPI y React. Asegúrate de personalizar las credenciales y configuraciones según tus necesidades específicas.
 
 
