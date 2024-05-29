@@ -92,5 +92,39 @@ Se asegurará que los datos presentados sean correctos y coherentes, sin errores
 - Se mantendrán bases de datos replicadas y backups automáticos para prevenir pérdida de datos.
 
 
+## Descripción de la Arquitectura
+
+La arquitectura del sistema está diseñada para permitir a los usuarios localizar geo-espacialmente las bibliotecas más cercanas en Bogotá, integrando diversas fuentes de datos y utilizando herramientas tecnológicas avanzadas. Los datos son recolectados desde fuentes públicas en múltiples formatos (Esri REST, WMS, WFS, GPKG, GeoJSON, SHP, KML, DXF) y gestionados mediante MinIO. Estos datos se almacenan en bases de datos relacionales, geoespaciales y vectoriales, que son orquestadas y gestionadas con Docker Compose. La capa de presentación incluye APIs desarrolladas con FastAPI y una interfaz de usuario intuitiva creada con Streamlit, complementada con búsqueda semántica en bases de datos documentales.
+
+### Diagrama de Arquitectura
+
+El diagrama de arquitectura muestra la estructura del ecosistema, destacando los componentes principales y su interconexión.
+
+![Diagrama de Arquitectura](path_to_architecture_diagram.png)
+*Figura 1. Diagrama de arquitectura.*
+
+### Componentes
+
+#### Fuentes de Datos y Bibliotecas (ETL - Ingesta)
+- **MinIO**: Un sistema de almacenamiento distribuido utilizado para gestionar y almacenar grandes volúmenes de datos recolectados. Almacena archivos en formatos Esri REST, WMS, WFS, GPKG, GeoJSON, SHP, KML, DXF, los cuales son diferentes formatos de datos geoespaciales y bibliográficos recolectados desde diversas fuentes públicas.
+
+#### Sistema de Almacenaje de Información
+- **BD Relacional**: PostgreSQL almacena datos estructurados en un formato relacional, proporcionando una base sólida y robusta para la gestión de datos en libros y bibliotecas.
+- **BD Geoespacial**: PostGIS, como extensión de PostgreSQL, maneja datos geoespaciales necesarios para la localización precisa de las bibliotecas, permitiendo consultas y análisis espaciales avanzados.
+- **BD Vectorial**: PostgreSQL también almacena datos vectoriales utilizados para representar objetos en un espacio geográfico, facilitando el manejo y análisis de datos vectoriales.
+- **BD Documental**: MongoDB, una base de datos de documentos que ofrece gran escalabilidad y flexibilidad, y un modelo de consultas e indexación avanzado. Como ejercicio académico y complemento en el desarrollo del proyecto, el aplicativo se conecta a MongoDB para búsquedas semánticas.
+- **Docker Compose**: Orquestador de contenedores utilizado para desplegar y gestionar los distintos componentes del sistema, asegurando su ejecución coordinada y eficiente.
+
+#### Presentación
+- **FastAPI**: Utilizado para desarrollar APIs que exponen los datos de manera eficiente y segura, facilitando la interacción con los datos almacenados y proporcionando un acceso rápido y estructurado a la información.
+- **Streamlit**: Plataforma utilizada para desarrollar la interfaz de usuario, permitiendo la visualización intuitiva de la información geoespacial y mejorando la experiencia del usuario.
+- **Redis**: Implementado como una base de datos en memoria para el almacenamiento en caché, mejorando el rendimiento y la velocidad de acceso a la información mediante el almacenamiento de datos temporales y frecuentemente consultados.
+
+### Flujo de Datos
+
+El diagrama de flujo muestra el movimiento de datos desde las fuentes hasta la presentación final al usuario.
+
+![Diagrama de Flujo](path_to_data_flow_diagram.png)
+*Figura 2. Diagrama de flujo.*
 
 
