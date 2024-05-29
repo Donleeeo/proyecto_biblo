@@ -494,13 +494,22 @@ proyecto_biblo/
 
 - **local.env**: Archivo que contiene variables de entorno necesarias para la configuración del proyecto.
 
-## Instrucciones básicas
-**Primer Paso:** 
-Clona el repositorio.
-Crea el archivo .env con las variables de entorno necesarias.
+## Instrucciones Básicas
+
+### **Primer Paso:**
+Clona el repositorio con el comando a continuación para crear el archivo `.env` con las variables de entorno necesarias.
+
 Construye y levanta los servicios con Docker Compose:
 
 ```sh
 docker-compose up --build
 ```
+### **Segundo Paso:**
+Antes de ejecutar la imagen generada con Docker del aplicativo es primordial esperar a que se carguen todos los archivos en las bases de datos.
+
+### **Tercer Paso:**
+Posterior a que se carguen todas las archivos en las bases de datos aca click en el siguiente link:
+
+http://localhost:3000
+
 
