@@ -436,6 +436,38 @@ Construcción de guía pública para consulta, en la cual se incluye:
 
 Incluir el archivo de licencia: Crea un archivo llamado LICENSE en el directorio raíz de tu proyecto e incluye el texto de la licencia.
 
+## Agradecimientos
+- **Reconocimientos:**
+- Gutiérrez Verano Katherin Alexandra,
+- Castillo López Gonzalo,
+- Poveda Girata Hugo Steven,
+- Silva Piracoca Edwin Leonardo
+
+---
+
+# Estructura del repositorio:
+``` 
+proyecto_biblo/
+├── imagenes/
+│ ├── Arquitectura.png
+│ └── Flujo.jpg
+├── minio_data/
+│ ├── .minio.sys/
+│ │ ├── buckets/
+│ │ ├── config/
+│ │ ├── pool.bin
+│ │ └── tmp/
+│ │ └── format.json
+│ ├── bucketbiblos/
+│ └── bucketlibros/
+├── README.md
+├── data.sql
+├── docker-compose.yml
+└── local.env
+
+css
+
+```
 
 
 
