@@ -512,4 +512,13 @@ Posterior a que se carguen todas las archivos en las bases de datos aca click en
 
 http://localhost:3000
 
+### **Cuarto Paso:**
+
+Al hacer clic en el enlace anterior, el siguiente paso es buscar el libro deseado. Dado que este aplicativo es netamente educativo, puedes buscar libros como "Quijote", "Biblia", "Jesús", entre muchos otros. Siéntete libre de explorar el buscador.
+
+El siguiente paso es seleccionar la biblioteca de tu preferencia. El aplicativo, por defecto, te mostrará las más cercanas a tu posición.
+
+Después de seleccionar la biblioteca y hacer clic en el botón "Buscar Bibliotecas", aparecerá un punto rojo en el mapa a la derecha. Siéntete libre de hacer clic en este punto; posteriormente, se abrirá una pestaña con la distancia a la biblioteca.
+
+Si deseas, puedes hacer clic en el botón de "Más Información" para encontrar películas similares al libro que estás buscando. Cabe resaltar que esta característica se realizó como adicional y puede ser un punto de mejora para trabajos futuros.
 
